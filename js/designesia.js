@@ -1928,6 +1928,7 @@
                     jQuery('#preloader').hide();
                     $('.d-modal-loader').fadeIn(300);
                     filter_gallery();
+                   
                 });         
             }); 
         });  
@@ -1935,6 +1936,7 @@
         // button-close
 
         jQuery('.button-close').click(function(){
+            $('#youtubePlayer').attr('src', '');
             $('#de_modal').fadeOut(300);
             $('.d-modal-loader').fadeIn(300);
             $('html,body').removeClass("no-scroll");
