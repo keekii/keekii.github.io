@@ -1963,7 +1963,7 @@
                   },
                   emptyFill: bg_circle_color
                 }).on('circle-animation-progress', function(event, progress, stepValue) {
-                  $(this).find('div').text((stepValue * 100).toFixed(1) + "%");
+                //   $(this).find('div').text((stepValue * 100).toFixed(1) + "%");
                 }).stop();
               }
             });
